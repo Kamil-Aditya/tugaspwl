@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Tugaspwl</title>
+    <style>
+        body{
+        font-family: 'Poppins', sans-serif;
+      }
+      .main-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+      @media (min-width: 576px) {
+        .main-header {
+          font-size: 4rem;
+        }
+      }
+      .carousel-inner{
+        border-radius: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">POlRES SURYA KENCANA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#home">Home</a>
+            <a class="nav-link" href="#pengaduan">Pengaduan</a>
+            <a class="nav-link" href="#lokasi">Lokasi</a>
+            <a class="nav-link" href="#kontak">Kontak</a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+<!-- Home -->
+<section class="min-vh-100 d-flex align-items-center py-lg-0 py-5" id="home">
+    <div class="container">
+      <div class="row align-items-center g-5 g-lg-0">
+        <div class="col-lg-7 order-lg-7 order-2" data-aos="fade-top" data-aos-duration="2000">
+          <h1 class="main-header">
+            LAYANAN PENGADUAN MASYARAKAT
+            <br>
+            <h2 class="text-info">POLRES SURYA KENCANA</h2>
+          </h1>
+          <p class="my-4 text-content px">
+            Apabila teman teman masyarakat melihat atau menjadi korban dengan adanya indikasi penyimpangan, korupsi, kolusi dan nepotisme yang dilakukan anggota kepolisian polres Surya Kencana
+             segara laporkan kepada kami kapolres Surya Kencana
+            /inspektorat polres Surya Kencana
+            /propam polres Surya Kencana</p>
+            <a class="btn btn-info btn-lg shadow-lg" href="#pengaduan">Laporan</a>
+
+        </div>
+        <div class="col-lg-5 order-lg-2 order-1" data-aos="fade-left" data-aos-duration="100">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="image/img-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="image/img-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="image/img-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="image/img-4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="image/img-5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Pengaduan -->
+  <section id="pengaduan">
+    <div class="container">
+        <h1 class="text-info">FORM LAPORAN PENGADUAN</h1><br>
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">NIK</label>
+            <input type="number" class="form-control" id="validationCustom01" value="" placeholder="Masukan NIK" required>
+            <div class="valid-feedback">
+              NIK Terdaftar
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">NAMA</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Masukan Nama" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">NO HP</label>
+            <input type="tel" class="form-control" id="validationCustom02" value="" placeholder="1234-5678-9999" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Keterangan</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Keteranagn anda sangat berarti!!
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Pengaduan</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Pilih Pengaduan</option>
+              <option>Pencurian</option>
+              <option>Begal</option>
+              <option>Pungli</option>
+              <option>Intervensi</option>
+              <option>Kejahatan Kekerasan</option>
+              <option>Tidak kompeten</option>
+              <option>Bertindak sewenang-wenang</option>
+            </select>
+            <div class="invalid-feedback">
+              Pilih salah satu Pengaduan
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Gambar/Video</label>
+            <input type="file" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Masukan Gambar/Video
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Keterangan tersebut adalah benar
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-info" type="submit">Kirim Pengaduan</button>
+          </div>
+        </form>
+      </div>
+  </section>
+
+<!-- Lokasi -->
+<section id="lokasi" style="padding-top:50px;">
+    <div class="container-fluid">
+        <h1 class="text-center">Lokasi</h1>
+        <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.450005719043!2d107.1201315141997!3d-6.836526468775217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6852f90219f333%3A0xa349c1d9700bca5d!2sPolres%20Cianjur!5e0!3m2!1sid!2sid!4v1667400633298!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  </section>
+
+<!-- Kontak -->
+<section id="kontak">
+    <div class="container" >
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-md-6 text-blak">
+                <h1>Kontak Lainnya</h1>
+                <img src="img/kontak/110.png" style="width: 125px;" alt="">
+                <img src="img/kontak/lapor-ka.png" style="width: 150px;" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="img/kontak/pp.jpg" style="width: 30%; border-radius: 10rem;" alt=""><br>
+                <h4>KAPOLRES SURYA KENCANA</h4>
+                <p>Kamil Aditya Agustiana NPM 5520120093 kelas IF NR 2020 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit ad minima. Enim molestiae in amet minus, odio magni nulla sit possimus dicta repellendus iure qui quidem dolor soluta repellat?</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <footer class="container-fluid" style="height:25px">
+        <div class="row">
+                <span class="text-center" style="padding:15px">Copyright@kamilNR2020</span>
+        </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
